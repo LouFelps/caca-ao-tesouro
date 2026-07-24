@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descriptografando Sistema...</title>
+    <style>
+        body {
+            background-color: #050505;
+            color: #00ff00;
+            font-family: 'Courier New', Courier, monospace;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .terminal-container {
+            max-width: 800px;
+            width: 100%;
+            border: 1px solid #00ff00;
+            padding: 30px;
+            box-shadow: 0 0 15px rgba(0, 255, 0, 0.4);
+            background-color: #0a0a0a;
+            border-radius: 5px;
+        }
+
+        .typing-effect {
+            white-space: pre-wrap; 
+            font-size: 1.1rem;
+            line-height: 1.6;
+            overflow: hidden;
+            border-right: 0.15em solid #00ff00;
+            animation: typing 4s steps(50, end), blink-caret 0.75s step-end infinite;
+        }
+
+        .highlight {
+            color: #ff0055;
+            font-weight: bold;
+        }
+
+        @keyframes typing {
+            from { max-height: 0; opacity: 0; }
+            to { max-height: 1500px; opacity: 1; }
+        }
+
+        @keyframes blink-caret {
+            from, to { border-color: transparent; }
+            50% { border-color: #00ff00; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="terminal-container">
+        <div class="typing-effect">
+<span class="highlight">[SISTEMA ACESSADO: FÊNIX ANCIÃ]</span>
+
+Você me encontrou no futuro... Muito bem. Sua primeira recompensa é a sílaba: <span class="highlight">Bi</span>.
+
+Mas a jornada apenas começou. 
+Para encontrar o próximo desafio, volte à mesa do Feliceiro e procure o autista que teve sua taça roubada....
+        </div>
+    </div>
+
+</body>
+</html>
